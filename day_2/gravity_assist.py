@@ -5,7 +5,8 @@ def main() -> None:
     filenames = ['input.txt']#, 'testinput.txt']
     for filename in filenames:
         intcode = open_file(filename)
-        # part_1(intcode)
+        part_1(intcode)
+        intcode = open_file(filename)
         part_2(intcode)
 
 
